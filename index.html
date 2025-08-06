@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="w-11/12 mx-auto flex justify-between py-3 border-b items-center">
+            
+            <div class="logo w-[100px] ">
+                <img src="assets/Logo.png" alt="">
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search Here" class="input input-bordered input-info w-full max-w-xs" />
+            </div>
+            <div class="btn w-[100px]">
+                <button>SORT</button>
+            </div>
+        </nav>
+        <nav id="categories" class="py-3 flex justify-center gap-5">
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section id="videos" class="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 py-10"></section>
+    </main>
+
+
+
+    <!-- Script connection -->
+
+    <script src="script/video.js"></script>
+    <script src="script/test.js"></script>
+</body>
+
+</html>
